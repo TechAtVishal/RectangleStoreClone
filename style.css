@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    letter-spacing: 2px;
+    font-family: 'Poppins' , sans-serif;
+    color: white;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+header
+{
+    padding: 25px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.301);
+    border-left: 0vw;
+    border-width: 1px;
+    width: 100%;
+    position: fixed;
+    transition: 0.5s;
+    z-index: 99;
+}
+header:hover
+{
+    background-color: white;
+}
+.Nav_bar
+{
+    width: 100%;
+}
+.MLogo
+{
+    top: 57%;
+    padding-bottom: 3px;
+    height: 45px;
+    width: 240px;
+    background-image: url("/img/Main_logo.png");
+    transition: 0.5s;
+}
+header:hover .MLogo
+{
+    background-image: url("/img/Main_logo_black.png");
+}
+svg
+{
+    fill: white;
+    transition: 0.5s;
+}
+header:hover svg
+{
+    fill: black;
+}
+.SVG_H_b
+{
+    position: absolute;
+    top: 40%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+}
+a
+{
+    padding: 10px;
+}
+a:link , a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+.Nav_links
+{
+    color: black;
+    padding-top: 15px;
+}
+img.header_img
+{
+    width: 100%;
+    height: 100%;
+    position: static;
+    left: 0px;
+}
+.h_img_OL
+{
+    background-color: black;
+    position: relative;
+    z-index: 45;
+    width: 100%;
+}
+.H_text
+{
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+}
+button.CTA_b
+{
+    font-weight: 100;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.836);
+    border-style: solid;
+    border-radius: 0;
+    background-color: white;
+    border-color: rgb(255, 255, 255);
+    width: 160px;
+    height: 53px;
+    transition: 0.8s;
+    letter-spacing: 2px;
+}
+button.CTA_b:hover
+{
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+ul.Nav_buttons
+{
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    word-spacing: 12px;
+}
